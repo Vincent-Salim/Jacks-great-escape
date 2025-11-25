@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3326766914137114940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6087941559996687576}
+  - component: {fileID: 453440947646937215}
+  m_Layer: 0
+  m_Name: DishSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6087941559996687576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3326766914137114940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 21.34471, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &453440947646937215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3326766914137114940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c2a8ff573d101049a8d73c6f8e6a1aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DishSpawner
+  dishes:
+  - {fileID: 4246782592305931310, guid: 3824f9c5041621d4bb5ce2c70de5abcf, type: 3}
+  - {fileID: 7115716663523033826, guid: efb08983fe8e1c243b8e82bb44a4cb5e, type: 3}
+  - {fileID: 6196530644001101422, guid: a5e4ef64cfcb8234ab3cebc883cee064, type: 3}
+  mugSprites:
+  - {fileID: 21300000, guid: 5ad3b2947a0b74588be2b73e20ac2909, type: 3}
+  - {fileID: 21300000, guid: 95e4450aee3c54400bf281d89bc420d8, type: 3}
+  - {fileID: 21300000, guid: b60da9bed239447378fd27bf0a9d8de1, type: 3}
+  - {fileID: 21300000, guid: df6a842f378a34a17ad521f4b591c4b6, type: 3}
+  - {fileID: 21300000, guid: eee7b78e1d600465291b593e4252d560, type: 3}
+  - {fileID: 21300000, guid: 5e1694228e2b3412ea20668162aa4eb0, type: 3}
+  plateSprites:
+  - {fileID: -8965456213139769348, guid: 75c09bbf1eea84ec2a24762f0811a7f8, type: 3}
+  - {fileID: -5672858218354012330, guid: 9c0bea27bb7a24917a3fc230ed80a86d, type: 3}
+  - {fileID: 5910135832045919750, guid: 3adda8f7dcd534bd6ac95b68803451d8, type: 3}
+  - {fileID: -4252072555677865570, guid: ac38b54f408934a5b882545ae0ecdfee, type: 3}
+  - {fileID: -54620225849182340, guid: 0333469322cf84a7a9c15c64dea7a407, type: 3}
+  bowlSprites:
+  - {fileID: -8965456213139769348, guid: 75c09bbf1eea84ec2a24762f0811a7f8, type: 3}
+  - {fileID: -5672858218354012330, guid: 9c0bea27bb7a24917a3fc230ed80a86d, type: 3}
+  - {fileID: -4252072555677865570, guid: ac38b54f408934a5b882545ae0ecdfee, type: 3}
+  - {fileID: 5910135832045919750, guid: 3adda8f7dcd534bd6ac95b68803451d8, type: 3}
+  - {fileID: -54620225849182340, guid: 0333469322cf84a7a9c15c64dea7a407, type: 3}
+  spawnPoint: {fileID: 6087941559996687576}
+  spawnParent: {fileID: 0}
+  minSpawnTime: 6
+  maxSpawnTime: 10
+  fallSpeed: 5
