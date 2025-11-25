@@ -3,6 +3,7 @@
 ## Table of contents
 
 - [Game Overview](#gameoverview)
+- [Team Members](#team-members)
 - [Story and Narrative](#story-and-narrative)
 - [Gameplay and Mechanics](#gameplay-and-mechanics)
 - [Levels and World Design](#levels-and-world-design)
@@ -25,6 +26,13 @@ This game is targeted for children and teenagers, as it follows the story from a
 
 ### Unique Selling Point
 However, unique to mainstream platform games, this game plays with the perspective as you experience a kitchen setting from a tiny person’s perspective. It is also rare that modern games follow a classic fable storyline, as this game does, providing familiarity and keeping players invested as they already know the backstory of the characters. The art style chosen to render this game in, discussed in detail in the following paragraphs, is also unique and aims to instil a sense of nostalgia for the vintage 1930’s rubber hose animations, reminiscent of iconic characters like Oswald the Lucky Rabbit, Mickey Mouse, Betty Boop, and Popeye, taken from the early era of animation. 
+
+## Team Members
+
+| Vincent Salim                                                                                                                | Sarah Williams                                                                                  | Amy Sun                                                                                                                     | Lionel Liu                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **TEAM LEADER**                                                                                                              |                                                                                                 |                                                                                                                             |                                                                                                                                                                    |
+| Acted as our leader.<br>Level 3 implementation.<br>Both shader implementations.<br>User input + basic run/jump/object interaction.<br>Had to fix many issues that came up with other team members' implementations| Level 2 implementation.<br>Player animation implementation.<br>Evaluation organiser + analysis. | Level 1 implementation.<br>Artist – background + some objects.<br>Implemented start + transition scenes.<br>Added parallax. | Artist leader – designed the style of the game (audio, graphics, and helped implement).<br>Implemented particle system.<br>Implemented arrow pointing to treasure. |
 
 ## Story and Narrative
 The game is based on a retelling of the well-known children’s fable, Jack and the Beanstalk.  
